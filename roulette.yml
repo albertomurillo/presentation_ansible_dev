@@ -1,0 +1,9 @@
+---
+- hosts: localhost
+  connection: local
+  tasks:
+    - name: Test Your luck
+      roulette: chambers=3
+
+    - name: Suicide
+      roulette: chambers=1
